@@ -4,7 +4,7 @@ public class tugas_week_6{
 
     public static void main(String[] args) {
         Scanner go = new Scanner(System.in);
-        double strukturData, pemograman, basisData, algoritma, rpl, ipk80;
+        double strukturData, pemograman, basisData, algoritma, rpl;
         
         System.out.println("Masukkan Nilai Struktur Data:");
         strukturData = go.nextDouble();
