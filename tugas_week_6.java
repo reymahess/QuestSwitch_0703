@@ -8,11 +8,11 @@ public class tugas_week_6{
         
         System.out.println("Masukkan Nilai Struktur Data:");
         strukturData = go.nextDouble();
-        System.out.println("Masukkan Nilai Pemograman :");
+        System.out.println("Masukkan Nilai Pemograman Berorientasi Objek :");
         pemograman = go.nextDouble  ();
         System.out.println("Masukkan Nilai Basis Data :");
         basisData = go.nextDouble();
-        System.out.println("Masukkan Nilai Algoritma :");
+        System.out.println("Masukkan Nilai Algoritma dan Pemograman :");
         algoritma = go.nextDouble();
         System.out.println("Masukkan Nilai Rekayasa Perangkat Lunak :");
         rpl = go.nextDouble();
@@ -45,6 +45,13 @@ public class tugas_week_6{
 
         if (predikat.equals("A(Sangat Baik)")|| predikat.equals("AB(Baik Sekali)")){
             System.out.println("Selamat Anda layak melanjutkan proses seleksi");
+            System.out.println("Untuk melanjutkan proses seleksi, silahkan pilih mata kuliah yang ingin anda ambil:");
+            System.out.println("1. Struktur Data");
+            System.out.println("2. Pemograman Berorientasi Objek");
+            System.out.println("3. Basis Data");
+            System.out.println("4. Algoritma dn Pemograman");
+            System.out.println("5. Rekayasa Perangkat Lunak");
+
         } else {
             System.out.println("Anda Tidak lolos proses seleksi");
         }
