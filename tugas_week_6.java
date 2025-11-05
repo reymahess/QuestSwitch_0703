@@ -26,16 +26,17 @@ public class tugas_week_6{
         rataipk = (ipkSD + ipkPemograman + ipkBasisData + ipkAlgoritma + ipkRpl) / 5;
         System.out.println("IPK Anda Adalah :" + rataipk);
 
+        String predikat;
         if(rataipk >= 3.75){
-            System.out.println("Predikat : A(Sangat Baik)");
+            predikat = "A(Sangat Baik)";
         } else if (rataipk >= 3.50 && rataipk < 3.75){
-            System.out.println("Predikat : AB(Baik Sekali)");
+            predikat = "AB(Baik Sekali)";
         } else if (rataipk >= 2.5 && rataipk < 3.50){
-            System.out.println("Predikat : B(Baik)");
+            predikat = "B(Baik)";
         } else if (rataipk >= 2.0 && rataipk < 2.5){
-            System.out.println("Predikat : BC(Cukup Baik)");
+            predikat = "BC(Cukup Baik)";
         } else {
-            System.out.println("Predikat : C(Kurang)");
+            predikat = "C(Kurang)";
         }
     }
 }
