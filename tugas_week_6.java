@@ -42,8 +42,9 @@ public class tugas_week_6{
         } else {
             predikat = "C(Kurang)";
             System.out.println("Predikat Anda Adalah :" + predikat);
+        }
 
-        if (predikat.equals("A(Sangat Baik)")|| predikat.equals("AB(Baik Sekali)")){
+        if (predikat.equals("A(Sangat Baik)") || predikat.equals("AB(Baik Sekali)")) {
             System.out.println("Selamat Anda layak melanjutkan proses seleksi");
             System.out.println("Untuk melanjutkan proses seleksi, silahkan pilih mata kuliah yang ingin anda ambil:");
             System.out.println("1. Struktur Data");
@@ -51,6 +52,10 @@ public class tugas_week_6{
             System.out.println("3. Basis Data");
             System.out.println("4. Algoritma dn Pemograman");
             System.out.println("5. Rekayasa Perangkat Lunak");
+            System.out.println("Silahkan Pilih Mata Kuliah dengan Nilai Diatas 75");
+            System.out.println("Masukkan Pilihan Mata Kuliah Anda:");
+            int pilihan = go.nextInt();
+            
 
         } else {
             System.out.println("Anda Tidak lolos proses seleksi");
