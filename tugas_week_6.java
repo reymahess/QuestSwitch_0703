@@ -61,10 +61,16 @@ public class tugas_week_6{
                     if(strukturData >= 75){
                         System.out.println("Anda Lulus Seleksi Asisten Dosen Mata Kuliah Struktur Data");
                     } else {
-                        System.out.println("Anda Tidak Lulus Mata Kuliah Struktur Data");
+                        System.out.println("Anda Tidak Lulus Seleksi Asisten Dosen Mata Kuliah Struktur Data");
                     }
                     break;
-            
+                case 2:
+                    if(pemograman >= 75){
+                        System.out.println("Anda Lulus Seleksi Asisten Dosen Mata Kuliah Pemograman Berorientasi Objek");
+                    } else {
+                        System.out.println("Anda Tidak Lulus Seleksi Asisten Dosen Mata Kuliah Pemograman Berorientasi Objek");
+                    }
+                    break;
                 default:
                     break;
             }
